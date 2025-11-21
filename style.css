@@ -1,4 +1,4 @@
-/* ===== GLOBAL STYLES ===== */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -30,7 +30,7 @@ a {
   color: inherit;
 }
 
-/* ===== COMMON NAVBAR STYLES (All Pages) ===== */
+
 .navbar, .navbar-index {
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ a {
   color: #fff !important;
 }
 
-/* Simple navbar for other pages */
+
 .navbar-simple {
   background: var(--card-color);
   padding: 15px 30px;
@@ -127,9 +127,7 @@ a {
   font-size: 22px;
 }
 
-/* ===== INDEX.HTML STYLES ===== */
 
-/* HERO - Index Page */
 .hero-index {
   max-width: 1200px;
   margin: 36px auto;
@@ -224,7 +222,7 @@ a {
   box-shadow: 0 12px 30px rgba(16, 24, 40, 0.06);
 }
 
-/* FEATURES - Index Page */
+
 .features-index {
   max-width: 1200px;
   margin: 24px auto;
@@ -269,7 +267,7 @@ a {
   font-size: 13px;
 }
 
-/* ===== ABOUT PAGE STYLES ===== */
+
 .about-section {
   display: flex;
   align-items: center;
@@ -304,7 +302,7 @@ a {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* ===== PRODUCTS PAGE STYLES ===== */
+
 .product-grid {
   display: flex;
   flex-wrap: wrap;
@@ -358,7 +356,7 @@ a {
   line-height: 1.5;
 }
 
-/* ===== SIGNUP PAGE STYLES ===== */
+
 .signup-wrapper {
   display: flex;
   justify-content: center;
@@ -424,7 +422,7 @@ a {
   transform: translateY(-2px);
 }
 
-/* ===== CONTACT & PORTFOLIO STYLES ===== */
+
 .form-box, .portfolio-box {
   max-width: 500px;
   margin: 40px auto;
@@ -468,7 +466,7 @@ a {
   background: #2c5da9;
 }
 
-/* ===== FOOTER ===== */
+
 footer {
   text-align: center;
   padding: 30px;
@@ -478,7 +476,7 @@ footer {
   background: var(--card-color);
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+
 @media (max-width: 900px) {
   .hero-index {
     flex-direction: column-reverse;
